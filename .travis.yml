@@ -19,7 +19,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: 822775af-e06d-4545-aa8d-a4369a91ba32
+  api_key:
+    secure: "n5xOUb0yAKKMaJKKonPug33T4A0MMSsykjDeaijkPDLuXbxPBrfQqitd69BAjBpch67Um3XD4PktIzcfvd6TtY/pUukw3S7RJ7i6fRSao9DYzBpfn16sumwHmacGSmuPgYy0Hn0KfT51567hVN2+PWWYYAf4zIde/+goRhqqkwDKzWU1cWwG531rJT1VdL8CfvTqPSxIJWqLjpDzFwi7r1ZicOOkwPZl4U4rF0ScS8G2hPyRYo92PfMNN4OgyODGG38wJ6Ke6pDj9vlHPv6hUTLYAdvAUgXnPDdJLlUS/oDxXTfBi81MbkvXD0jA88/+Cgu+qPhYszJclBwnk8JbtScCJtVVlMtu+HZP+m2W8j5eVBJfxILBTwQEhcmMuKA+t4wZVqO+I+BZbeshBcSY0cJQHo4AHFDYqvWExmWB+Z91QuVI6+6TeA49kEe8ULycrczUoaIOOiYZNPJsTXWW9qpJOtq4VjmWe/mn0OlE6NZw9dAH9a+oHgHxsPOo/lsL/J6g93UB8SPTLW+UtgdV5/99024eMpOuJW9IlrJb7GsEnsU5yxHxRzPcxhy9jU4bAie1ReWkn+lDIZOH4YNkrRdT5o+57GbMbSMaw3buHrTDjkwXEbRUYd615t59hiEhXHmvK87VVOHOB91c2pycGvSIR06wkMDkOpzHrNqYxi4="
   app: platzi-store-travis
   on:
     repo: Cristhho/platzi-store-backend
