@@ -1,0 +1,25 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - desarrolloweb@cristhhq.dev
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep_history: true
+  api_key: 822775af-e06d-4545-aa8d-a4369a91ba32
+  app: platzi-store-travis
+  on:
+    repo: Cristhho/platzi-store-backend
